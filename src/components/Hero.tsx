@@ -5,7 +5,7 @@ export default function Hero() {
     <section className="bg-[#FFFDF8]">
       <div className="mx-auto flex max-w-7xl flex-col-reverse items-center px-6 py-20 md:flex-row">
         <div className="flex-1">
-          <span className="rounded-full bg-red-100 px-4 py-2 text-sm text-red-600">
+          <span className="rounded-full bg-purple-100 px-4 py-2 text-sm text-purple-600">
             Empowering Young Readers
           </span>
 
@@ -24,7 +24,7 @@ export default function Hero() {
           </p>
 
           <div className="mt-8 flex gap-4">
-            <button className="rounded-lg bg-red-500 px-6 py-3 text-white">
+            <button className="rounded-lg bg-purple-500 px-6 py-3 text-white">
               Join Us
             </button>
 

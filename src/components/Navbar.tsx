@@ -1,4 +1,4 @@
-import logo from '../assets/logo-abc.png'
+import logo from '../assets/logo.png'
 
 export default function Navbar() {
   return (
@@ -14,15 +14,21 @@ export default function Navbar() {
           <div>
             <h1 className="font-bold text-gray-800">
               Project ABC
+              {" "}
+              {/* <span className="text-red-500">A</span>
+              <span className="text-purple-500">B</span>
+              <span className="text-blue-500">C</span> */}
             </h1>
 
             <p className="text-xs text-gray-500">
-              Abli • Basa • Community
+              <span className="text-red-500">Abli •</span>
+              <span className="text-purple-500">Basa •</span>
+              <span className="text-blue-500">Community</span>
             </p>
           </div>
         </div>
 
-        <ul className="hidden gap-8 font-medium md:flex">
+        <ul className="hidden gap-8 font-medium md:flex text-purple-600">
           <li>
             <a href="#about">About</a>
           </li>
