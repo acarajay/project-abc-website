@@ -12,7 +12,7 @@ export default function CTA() {
         </p>
 
         <button className="mt-8 rounded-lg bg-white px-8 py-3 font-semibold text-black">
-          Become a Volunteer
+          Become a Volunteer 
         </button>
       </div>
     </section>
