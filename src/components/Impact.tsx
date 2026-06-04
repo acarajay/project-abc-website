@@ -1,21 +1,21 @@
 const impacts = [
   {
-    value: '1,500+',
+    value: '150',
     label: 'Children Reached',
     color: 'text-red-500',
   },
   {
-    value: '120+',
+    value: '20',
     label: 'Volunteers',
     color: 'text-yellow-500',
   },
   {
-    value: '50+',
+    value: '3',
     label: 'Reading Sessions',
     color: 'text-blue-500',
   },
   {
-    value: '10+',
+    value: '3',
     label: 'Partner Schools',
     color: 'text-green-500',
   },
