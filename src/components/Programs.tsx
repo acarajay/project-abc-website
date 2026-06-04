@@ -1,51 +1,44 @@
-const impacts = [
+const programs = [
   {
-    value: '1,500+',
-    label: 'Children Reached',
-    color: 'text-red-500',
+    title: 'Reading Sessions',
+    description:
+      'Interactive reading activities for children.',
   },
   {
-    value: '120+',
-    label: 'Volunteers',
-    color: 'text-yellow-500',
+    title: 'Book Donations',
+    description:
+      'Providing access to books and learning materials.',
   },
   {
-    value: '50+',
-    label: 'Reading Sessions',
-    color: 'text-blue-500',
-  },
-  {
-    value: '10+',
-    label: 'Partner Schools',
-    color: 'text-green-500',
+    title: 'Community Outreach',
+    description:
+      'Connecting communities through literacy programs.',
   },
 ]
 
-export default function Impact() {
+export default function Programs() {
   return (
     <section
-      id="impact"
-      className="bg-gray-50 py-24"
+      id="programs"
+      className="py-24"
     >
       <div className="mx-auto max-w-7xl px-6">
         <h2 className="mb-12 text-center text-4xl font-bold">
-          Our Impact
+          Our Programs
         </h2>
 
-        <div className="grid gap-8 md:grid-cols-4">
-          {impacts.map((item) => (
+        <div className="grid gap-8 md:grid-cols-3">
+          {programs.map((program) => (
             <div
-              key={item.label}
-              className="text-center"
+              key={program.title}
+              className="rounded-2xl border p-8 transition hover:-translate-y-2 hover:shadow-xl"
             >
-              <h3
-                className={`text-5xl font-bold ${item.color}`}
-              >
-                {item.value}
+              <h3 className="mb-4 text-xl font-bold">
+                {program.title}
               </h3>
 
-              <p className="mt-3 text-gray-600">
-                {item.label}
+              <p className="text-gray-600">
+                {program.description}
               </p>
             </div>
           ))}
